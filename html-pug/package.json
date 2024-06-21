@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "name": "pug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pug templates/*.pug --pretty --out ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
